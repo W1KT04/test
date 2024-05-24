@@ -1,0 +1,130 @@
+/* Resetowanie domyślnych stylów dla wszystkich elementów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylizacja body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Stylizacja nagłówka */
+header {
+    background-color: #0e0e0e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Stylizacja nawigacji */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Stylizacja sekcji */
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Stylizacja produktu */
+.Interium {
+    background-color: #0e0e0e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Dodanie zaokrąglonych rogów */
+    max-width: 400px; /* Ustawienie maksymalnej szerokości */
+    max-height: 400px;
+    margin: auto; /* Wyśrodkowanie elementu */
+}
+
+.Interium img {
+    max-width: 50%;
+    height: auto; /* Dopasowanie wysokości obrazka do szerokości */
+    max-height: 50%; /* Obrazek nie będzie większy niż jego rodzic (.Interium) */
+}
+
+.Interium h2 {
+    margin-top: 10px;
+}
+
+.Interium p {
+    margin: 10px 0;
+}
+
+.Interium button {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Interium button:hover {
+    background-color: #00a2ff;
+}
+
+/* Stylizacja produktu */
+.MIDNIGHT {
+    background-color: #0e0e0e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Dodanie zaokrąglonych rogów */
+    max-width: 400px; /* Ustawienie maksymalnej szerokości */
+    max-height: 400px;
+    margin: auto; /* Wyśrodkowanie elementu */
+}
+
+.MIDNIGHT img {
+    max-width: 200px;
+    height: auto; /* Dopasowanie wysokości obrazka do szerokości */
+    max-height: 50%; /* Obrazek nie będzie większy niż jego rodzic (.Interium) */
+}
+
+.MIDNIGHT h2 {
+    margin-top: 10px;
+}
+
+.MIDNIGHT p {
+    margin: 10px 0;
+}
+
+.MIDNIGHT button {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.MIDNIGHT button:hover {
+    background-color: #00a2ff;
+}
+
+/* Stylizacja stopki */
+footer {
+    background-color: #0e0e0e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
